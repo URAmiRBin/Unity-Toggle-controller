@@ -73,3 +73,422 @@ System memory in use after: 56.9 MB.
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1545.
 Total: 2.127800 ms (FindLiveObjects: 0.159200 ms CreateObjectMapping: 0.051500 ms MarkObjects: 1.833600 ms  DeleteObjects: 0.082200 ms)
 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/flat
+  artifactKey: Guid(0e00c8b7bb7c8463994de637063b2303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/flat using Guid(0e00c8b7bb7c8463994de637063b2303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1d3b71cff1938213362d204693fe76') in 0.015611 seconds
+  Import took 0.018439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.760234 seconds.
+  path: Assets/Sprites/flat/Handle.png
+  artifactKey: Guid(9487ed319d5c04841b1b9f0332de4c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/flat/Handle.png using Guid(9487ed319d5c04841b1b9f0332de4c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f686eac2a00609e1dae9496c866fc935') in 0.152220 seconds
+  Import took 0.154678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.046623 seconds.
+  path: Assets/Sprites/flat/Toggle_bg.png
+  artifactKey: Guid(fa95eaebf10aa48c1b9a954b7fd6e9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/flat/Toggle_bg.png using Guid(fa95eaebf10aa48c1b9a954b7fd6e9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095f263f102fc73b48afa8a3f6a941b8') in 0.027194 seconds
+  Import took 0.029594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Sprites/flat/Toggle_bg.png
+  artifactKey: Guid(fa95eaebf10aa48c1b9a954b7fd6e9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/flat/Toggle_bg.png using Guid(fa95eaebf10aa48c1b9a954b7fd6e9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095f263f102fc73b48afa8a3f6a941b8') in 0.032373 seconds
+  Import took 0.035317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 522.018698 seconds.
+  path: Assets/Sprites/flat/toggle_bg.png
+  artifactKey: Guid(fa95eaebf10aa48c1b9a954b7fd6e9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/flat/toggle_bg.png using Guid(fa95eaebf10aa48c1b9a954b7fd6e9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6dbb883ec889602026570867e301a2') in 0.027140 seconds
+  Import took 0.030035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000695 seconds.
+  path: Assets/Sprites/flat/toggle_bg.png
+  artifactKey: Guid(fa95eaebf10aa48c1b9a954b7fd6e9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/flat/toggle_bg.png using Guid(fa95eaebf10aa48c1b9a954b7fd6e9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6dbb883ec889602026570867e301a2') in 0.013643 seconds
+  Import took 0.016137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.453903 seconds.
+  path: Assets/Sprites/flat/toggle_border.png
+  artifactKey: Guid(e45dcc2bfb0b5504f8af8a80e341f021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/flat/toggle_border.png using Guid(e45dcc2bfb0b5504f8af8a80e341f021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0692b3e00d1b3131279888d1a6661c') in 0.020048 seconds
+  Import took 0.023582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001638 seconds.
+  path: Assets/Sprites/flat/toggle_border.png
+  artifactKey: Guid(e45dcc2bfb0b5504f8af8a80e341f021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/flat/toggle_border.png using Guid(e45dcc2bfb0b5504f8af8a80e341f021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0692b3e00d1b3131279888d1a6661c') in 0.014201 seconds
+  Import took 0.016495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.799000 seconds.
+  path: Assets/Sprites/flat/toggle_handle.png
+  artifactKey: Guid(6e1a0039a2c77764f84d2b4fa2eb91e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/flat/toggle_handle.png using Guid(6e1a0039a2c77764f84d2b4fa2eb91e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ddd763a74b1414fa54ff8f6d7fdc87') in 0.021340 seconds
+  Import took 0.023615 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.858 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.6 MB.
+System memory in use after: 59.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1561.
+Total: 1.746200 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.041300 ms MarkObjects: 1.520900 ms  DeleteObjects: 0.020900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 457.400828 seconds.
+  path: Assets/Prefabs/Toggle.prefab
+  artifactKey: Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Toggle.prefab using Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea607ef7298c2f78d6259d1bb5f50188') in 0.060380 seconds
+  Import took 0.062774 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1563.
+Total: 2.463700 ms (FindLiveObjects: 0.173600 ms CreateObjectMapping: 0.051600 ms MarkObjects: 2.219700 ms  DeleteObjects: 0.017800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000780 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.244 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1565.
+Total: 2.302600 ms (FindLiveObjects: 0.365300 ms CreateObjectMapping: 0.057100 ms MarkObjects: 1.861400 ms  DeleteObjects: 0.017200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000850 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1567.
+Total: 1.743400 ms (FindLiveObjects: 0.141900 ms CreateObjectMapping: 0.047500 ms MarkObjects: 1.537900 ms  DeleteObjects: 0.014600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.894 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1569.
+Total: 1.767000 ms (FindLiveObjects: 0.193900 ms CreateObjectMapping: 0.074300 ms MarkObjects: 1.482000 ms  DeleteObjects: 0.015300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000665 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.828 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1571.
+Total: 1.561400 ms (FindLiveObjects: 0.156900 ms CreateObjectMapping: 0.064000 ms MarkObjects: 1.325200 ms  DeleteObjects: 0.014300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000711 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.837 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1573.
+Total: 2.133200 ms (FindLiveObjects: 0.121700 ms CreateObjectMapping: 0.037100 ms MarkObjects: 1.958300 ms  DeleteObjects: 0.015000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 326.205088 seconds.
+  path: Assets/Prefabs/Toggle.prefab
+  artifactKey: Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Toggle.prefab using Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b9b2aced3413f59425e2d5dd9ae0d3') in 0.041792 seconds
+  Import took 0.043968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036325 seconds.
+  path: Assets/Prefabs/Toggle.prefab
+  artifactKey: Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Toggle.prefab using Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b9b2aced3413f59425e2d5dd9ae0d3') in 0.006217 seconds
+  Import took 0.008363 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000764 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1575.
+Total: 1.550100 ms (FindLiveObjects: 0.120500 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.377800 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.504445 seconds.
+  path: Assets/Prefabs/Toggle.prefab
+  artifactKey: Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Toggle.prefab using Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5b779c879b567d10db758e0a14f427') in 0.053415 seconds
+  Import took 0.055737 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1577.
+Total: 1.869100 ms (FindLiveObjects: 0.161500 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.643100 ms  DeleteObjects: 0.017300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 455.208575 seconds.
+  path: Assets/Prefabs/Toggle.prefab
+  artifactKey: Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Toggle.prefab using Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb731f2d5e5b1da2c8b17655faef0e53') in 0.047934 seconds
+  Import took 0.050178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002103 seconds.
+  path: Assets/Prefabs/Toggle.prefab
+  artifactKey: Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Toggle.prefab using Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb731f2d5e5b1da2c8b17655faef0e53') in 0.007122 seconds
+  Import took 0.009350 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000829 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1579.
+Total: 1.954000 ms (FindLiveObjects: 0.238600 ms CreateObjectMapping: 0.047400 ms MarkObjects: 1.648000 ms  DeleteObjects: 0.018400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.751752 seconds.
+  path: Assets/Prefabs/Toggle.prefab
+  artifactKey: Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Toggle.prefab using Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e426c313d10cf0bec118785b61b969') in 0.042824 seconds
+  Import took 0.045278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.894827 seconds.
+  path: Assets/Prefabs/Toggle.prefab
+  artifactKey: Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Toggle.prefab using Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe109e82376b12fe121325129db2b04') in 0.007976 seconds
+  Import took 0.011307 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000759 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1581.
+Total: 1.687100 ms (FindLiveObjects: 0.131400 ms CreateObjectMapping: 0.048100 ms MarkObjects: 1.491500 ms  DeleteObjects: 0.015100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.750138 seconds.
+  path: Assets/Prefabs/Toggle.prefab
+  artifactKey: Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Toggle.prefab using Guid(f736ef895720643b3b2e8a3a5f092df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a359a5e6d8a364a932d7fe308bf5e59') in 0.042079 seconds
+  Import took 0.044378 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001307 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1583.
+Total: 2.008600 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.753700 ms  DeleteObjects: 0.017200 ms)
+

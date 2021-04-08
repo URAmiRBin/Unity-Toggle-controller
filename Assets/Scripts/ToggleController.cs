@@ -7,10 +7,10 @@ public class ToggleController : MonoBehaviour
 {
 	public  bool isOn;
 
-	public Color onColorBg;
-	public Color offColorBg;
+	public Color onColorBorder;
+	public Color offColorBorder;
 
-	public Image toggleBgImage;
+	public Image toggleBorderImage;
 	public RectTransform toggle;
 
 	public GameObject handle;
@@ -26,12 +26,14 @@ public class ToggleController : MonoBehaviour
 	static float t = 0.0f;
 
 	private bool switching = false;
+	private Image handleImage;
 
 
 	void Awake()
 	{
 		handleTransform = handle.GetComponent<RectTransform>();
 		RectTransform handleRect = handle.GetComponent<RectTransform>();
+		handleImage = handle.GetComponent<Image>();
 		handleSize = handleRect.sizeDelta.x;
 		float toggleSizeX = toggle.sizeDelta.x;
 		onPosX = (toggleSizeX / 2) - (handleSize/2) - handleOffset;
@@ -44,12 +46,14 @@ public class ToggleController : MonoBehaviour
 	{
 		if(isOn)
 		{
-			toggleBgImage.color = onColorBg;
+			toggleBorderImage.color = onColorBorder;
+			handleImage.color = onColorBorder;
 			handleTransform.localPosition = new Vector3(onPosX, 0f, 0f);
 		}
 		else
 		{
-			toggleBgImage.color = offColorBg;
+			toggleBorderImage.color = offColorBorder;
+			handleImage.color = offColorBorder;
 			handleTransform.localPosition = new Vector3(offPosX, 0f, 0f);
 		}
 	}
@@ -79,12 +83,14 @@ public class ToggleController : MonoBehaviour
 	{	
 		if(toggleStatus)
 		{
-			toggleBgImage.color = SmoothColor(onColorBg, offColorBg);
+			toggleBorderImage.color = SmoothColor(onColorBorder, offColorBorder);
+			handleImage.color = SmoothColor(onColorBorder, offColorBorder);;
 			handleTransform.localPosition = SmoothMove(handle, onPosX, offPosX);
 		}
 		else 
 		{
-			toggleBgImage.color = SmoothColor(offColorBg, onColorBg);
+			toggleBorderImage.color = SmoothColor(offColorBorder, onColorBorder);
+			handleImage.color = SmoothColor(offColorBorder, onColorBorder);
 			handleTransform.localPosition = SmoothMove(handle, offPosX, onPosX);
 		}
 			
