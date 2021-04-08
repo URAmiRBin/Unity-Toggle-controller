@@ -24,8 +24,7 @@ public class ToggleController : MonoBehaviour
 	public float handleOffset;
 
 	public float speed;
-	static float t = 0.0f;
-
+	
 	private bool switching = false;
 	private Image handleImage;
 	private Action<bool> toggleAction = (status) => { Debug.Log(status); };
@@ -64,80 +63,47 @@ public class ToggleController : MonoBehaviour
 		}
 	}
 
-	void Update()
-	{
-
-		if(switching)
-		{
-			Toggle(isOn);
-		}
-	}
-
 	public void Switching()
 	{
-		switching = true;
+		Toggle(isOn);
 	}
 
 	public void Toggle(bool toggleStatus)
 	{	
+		if (switching) return;
+		switching = true;
 		if(toggleStatus)
 		{
-			toggleBorderImage.color = SmoothColor(onColorBorder, offColorBorder);
-			handleImage.color = SmoothColor(onColorBorder, offColorBorder);;
-			handleTransform.localPosition = SmoothMove(handle, onPosX, offPosX);
+			StartCoroutine(SmoothColor(onColorBorder, offColorBorder));
+			StartCoroutine(SmoothMove(handle, onPosX, offPosX));
 		}
 		else 
 		{
-			toggleBorderImage.color = SmoothColor(offColorBorder, onColorBorder);
-			handleImage.color = SmoothColor(offColorBorder, onColorBorder);
-			handleTransform.localPosition = SmoothMove(handle, offPosX, onPosX);
+			StartCoroutine(SmoothColor(offColorBorder, onColorBorder));
+			StartCoroutine(SmoothMove(handle, offPosX, onPosX));
+		}	
+	}
+
+	
+	IEnumerator SmoothMove(GameObject toggleHandle, float startPosX, float endPosX)
+	{
+		float t = 0.0f;
+		while (t < 1.0f) {
+			handleTransform.localPosition = new Vector3 (Mathf.Lerp(startPosX, endPosX, t += speed * Time.deltaTime), 0f, 0f);
+			yield return null;
 		}
-			
+		switching = false;
+		toggleAction(isOn = !isOn);
 	}
 
-
-	Vector3 SmoothMove(GameObject toggleHandle, float startPosX, float endPosX)
+	IEnumerator SmoothColor(Color startCol, Color endCol)
 	{
-		
-		Vector3 position = new Vector3 (Mathf.Lerp(startPosX, endPosX, t += speed * Time.deltaTime), 0f, 0f);
-		StopSwitching();
-		return position;
-	}
-
-	Color SmoothColor(Color startCol, Color endCol)
-	{
-		Color resultCol;
-		resultCol = Color.Lerp(startCol, endCol, t += speed * Time.deltaTime);
-		return resultCol;
-	}
-
-	CanvasGroup Transparency (GameObject alphaObj, float startAlpha, float endAlpha)
-	{
-		CanvasGroup alphaVal;
-		alphaVal = alphaObj.gameObject.GetComponent<CanvasGroup>();
-		alphaVal.alpha = Mathf.Lerp(startAlpha, endAlpha, t += speed * Time.deltaTime);
-		return alphaVal;
-	}
-
-	void StopSwitching()
-	{
-		if(t > 1.0f)
-		{
-			switching = false;
-
-			t = 0.0f;
-			switch(isOn)
-			{
-			case true:
-				isOn = false;
-				break;
-
-			case false:
-				isOn = true;
-				break;
-			}
-			toggleAction(isOn);
+		float t = 0.0f;
+		while (t < 1.0f) {
+			Color c = Color.Lerp(startCol, endCol, t += speed * Time.deltaTime);
+			handleImage.color = c;
+			toggleBorderImage.color = c;
+			yield return null;
 		}
 	}
-
 }
