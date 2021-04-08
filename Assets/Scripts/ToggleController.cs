@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class ToggleController : MonoBehaviour 
 {
@@ -27,6 +28,7 @@ public class ToggleController : MonoBehaviour
 
 	private bool switching = false;
 	private Image handleImage;
+	private Action<bool> toggleAction = (status) => { Debug.Log(status); };
 
 
 	void Awake()
@@ -39,6 +41,10 @@ public class ToggleController : MonoBehaviour
 		onPosX = (toggleSizeX / 2) - (handleSize/2) - handleOffset;
 		offPosX = onPosX * -1;
 
+	}
+
+	public void SetAction(Action<bool> action) {
+		toggleAction = action;
 	}
 
 
@@ -57,7 +63,7 @@ public class ToggleController : MonoBehaviour
 			handleTransform.localPosition = new Vector3(offPosX, 0f, 0f);
 		}
 	}
-		
+
 	void Update()
 	{
 
@@ -67,17 +73,10 @@ public class ToggleController : MonoBehaviour
 		}
 	}
 
-	public void DoYourStaff()
-	{
-		Debug.Log(isOn);
-	}
-
 	public void Switching()
 	{
 		switching = true;
 	}
-		
-
 
 	public void Toggle(bool toggleStatus)
 	{	
@@ -131,15 +130,13 @@ public class ToggleController : MonoBehaviour
 			{
 			case true:
 				isOn = false;
-				DoYourStaff();
 				break;
 
 			case false:
 				isOn = true;
-				DoYourStaff();
 				break;
 			}
-
+			toggleAction(isOn);
 		}
 	}
 
